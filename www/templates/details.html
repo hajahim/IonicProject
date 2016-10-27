@@ -1,0 +1,24 @@
+<ion-header-bar class="bar-positive">
+	<h1 class="title">Details</h1>
+</ion-header-bar>
+<ion-view>
+	<ion-content>
+		<div class="list card">
+			<div class="item item-avatar">
+				<img src="img/flag.jpg">
+				<h2>{{ detail.name }}</h2>
+				<p>{{ detail.capital }}</p>
+			</div>
+
+			<div class="item item-image">
+				<img src="img/flag.jpg">
+			</div>
+
+			<a class="item item-icon-left assertive" href="#">
+				<i class="icon ion-music-note"></i>
+				Population : {{ detail.population }}
+			</a>
+
+		</div>
+	</ion-content>
+</ion-view>

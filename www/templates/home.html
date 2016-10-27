@@ -1,0 +1,17 @@
+<ion-header-bar class="bar-positive">
+	<h1 class="title">Exercice</h1>
+</ion-header-bar>
+<ion-view>
+	<ion-content>
+		<div class="list">
+			<a class="item item-avatar" href="#" ng-repeat="item in countries" ng-click="details(item)" >
+				<img src="img/flag.jpg">
+				<h2>{{ item.name }}</h2>
+				<p>Capital : {{ item.capital }}</p>
+				<div class="item-icon-right">
+					<i class="icon ion-ios-arrow-right"></i>
+				</div>
+			</a>
+		</div>
+	</ion-content>
+</ion-view>
